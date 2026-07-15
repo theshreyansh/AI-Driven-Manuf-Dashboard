@@ -12,7 +12,7 @@ from faker import Faker
 
 # --- PAGE CONFIG ---
 st.set_page_config(
-    page_title="HD Supply | Wholesale Distribution Dashboard",
+    page_title="SupplyOne | Wholesale Distribution Dashboard",
     page_icon="HDS",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -215,7 +215,7 @@ KPI_DEFINITIONS = {
     "Distribution Center Productivity": "Evaluates operational efficiency of warehouses using metrics like orders processed per labor hour or per shift.",
     "Freight Utilization Efficiency": "Measures truck or container space utilization during transportation. Helps reduce logistics costs and carbon footprint.",
     "Customer Satisfaction Score (CSAT)": "Captures customer feedback on delivery experience, product availability, and service quality. Important for retention and brand trust.",
-    "Net Promoter Score (NPS)": "Measures customer loyalty and likelihood to recommend HD Supply services to others. Indicates long-term customer relationship strength.",
+    "Net Promoter Score (NPS)": "Measures customer loyalty and likelihood to recommend SupplyOne services to others. Indicates long-term customer relationship strength.",
     "Procurement Cost Savings": "Tracks savings achieved through vendor negotiations, bulk purchasing, and sourcing optimization initiatives.",
     "Average Delivery Distance per Route": "Measures delivery route efficiency and geographic optimization across the U.S. and Canada distribution network.",
     "Carbon Emissions per Shipment": "Tracks sustainability impact by measuring emissions generated per delivery or shipment handled. Supports ESG and sustainability goals.",
@@ -603,7 +603,7 @@ if filtered_df.empty:
 
 
 # --- MAIN DASHBOARD ---
-st.title("HD Supply | Wholesale Distribution Dashboard")
+st.title("SupplyOne | Wholesale Distribution Dashboard")
 st.markdown(
     """
     <div class="hero-note">
@@ -1215,7 +1215,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: #667085; font-size: 12px;">
-        HD Supply | A Home Depot Company | Wholesale Distribution Dashboard | Synthetic demo data
+        SupplyOne | A Home Depot Company | Wholesale Distribution Dashboard | Synthetic demo data
     </div>
     """,
     unsafe_allow_html=True,
